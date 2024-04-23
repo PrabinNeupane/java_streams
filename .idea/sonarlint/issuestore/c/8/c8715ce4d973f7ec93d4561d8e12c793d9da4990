@@ -1,3 +1,5 @@
 
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(È–¬İøÿÿÿÿ8›„èÏğ1
+L	java:S106 "+Replace this use of System.out by a logger.(£ÂÜ“øÿÿÿÿ8çäÍÑğ1
+t
+java:S6204("RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ªçŸŠøÿÿÿÿ8éäÍÑğ1
+L	java:S106)"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8íäÍÑğ1
