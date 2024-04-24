@@ -22,13 +22,13 @@ public class DeclarativeProgramming {
 
         List<Person> females = new ArrayList<>();
 
-        for(Person women : people){
-            if(FEMALE.equals(women.gender)){
+        for (Person women : people) {
+            if (FEMALE.equals(women.gender)) {
                 females.add(women);
             }
         }
 
-        for(Person female : females){
+        for (Person female : females) {
             System.out.println(female);
         }
 
@@ -38,7 +38,7 @@ public class DeclarativeProgramming {
         people.stream()
                 .filter(women -> FEMALE.equals(women.gender))
                 .collect(Collectors.toList())
-                .forEach(System.out ::println);
+                .forEach(System.out::println);
     }
 
     static class Person {
